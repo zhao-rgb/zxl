@@ -8,10 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>首页</title>
   </head>
   <body>
- fdgsfwef
-  12333
+  <h2>首页</h2>
+
+  <h2>欢迎你：<%=session.getAttribute("username")%></h2>
+  <a href="persion.jsp">个人中心</a>
   </body>
 </html>
