@@ -29,5 +29,7 @@ public class LoginServlet extends HttpServlet {
         session.setAttribute("useame",username);
         resp.sendRedirect("index.jsp");
 		System.out.println(trees);
+		System.out.println(trees);
+		System.out.println(trees);System.out.println(trees);
     }
 }
