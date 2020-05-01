@@ -26,7 +26,7 @@ public class LoginServlet extends HttpServlet {
         //获取session对象
         HttpSession session=req.getSession();
 
-        session.setAttribute("username",username);
+        session.setAttribute("useame",username);
         resp.sendRedirect("index.jsp");
     }
 }
